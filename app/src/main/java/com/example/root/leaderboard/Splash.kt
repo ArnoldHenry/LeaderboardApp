@@ -11,7 +11,6 @@ class Splash : AppCompatActivity() {
 
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
-
             val intent = Intent(applicationContext, Login::class.java)
             startActivity(intent)
             finish()
